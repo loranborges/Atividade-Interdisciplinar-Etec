@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VaptFood</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo" data-page-target="home">
+    <img src="img/logo vaptfood.png" alt="VaptFood" />
+  </div>
+  <nav>
+    <a href="#" id="nav-home" data-page-target="home" class="active">Cardápio</a>
+    <a href="#" id="nav-pedidos" data-page-target="home">Pedidos</a>
+    <a href="#" id="nav-entregador" data-page-target="home">Entregador</a>
+    <a href="#" id="nav-ajuda" data-page-target="ajuda">Ajuda</a>
+    <a href="#" id="nav-sobre" data-page-target="home">Sobre</a>
+  </nav>
+  <button class="btn-entrar" data-modal-target="login">Entrar</button>
+</header>
+
+<div class="page active" id="page-home">
+
+  <div class="hero-search">
+    <input type="text" placeholder="Endereço de entrega e..." />
+    <button class="search-icon">🔍</button>
+    <button class="cart-icon">🛒</button>
+  </div>
+
+  <div class="categories">
+    <div class="cat-card">
+      <img src="img/Pesquisa-de-mercado-para-supermercado.png" alt="Mercados" />
+      <p>Mercados</p>
+    </div>
+    <div class="cat-card">
+      <img src="img/G24FHENDRRGCTJL4RMLFTJ63AM.png" alt="Restaurantes" />
+      <p>Restaurantes</p>
+    </div>
+    <div class="cat-card">
+      <img src="img/como-montar-uma-lanchonete.png" alt="Lanchonetes" />
+      <p>Lanchonetes</p>
+    </div>
+  </div>
+
+  <div class="section-title">Melhores Restaurantes</div>
+  <div class="restaurants-grid">
+    <div class="rest-card"><div class="avatar">🍕</div><p>Pizzaria Bella</p></div>
+    <div class="rest-card"><div class="avatar">🍔</div><p>Burger House</p></div>
+    <div class="rest-card"><div class="avatar">🍣</div><p>Sushi Tokyo</p></div>
+    <div class="rest-card"><div class="avatar">🌮</div><p>Taco Loco</p></div>
+    <div class="rest-card"><div class="avatar">🍗</div><p>Frango & Cia</p></div>
+  </div>
+
+  <div class="social-section">
+    <h3>SOCIAL</h3>
+    <div class="social-links">
+      <a href="#"><span class="social-icon">📘</span> facebook.com/vaptfoodp/</a>
+      <a href="#"><span class="social-icon">📸</span> instagram.com/vapt_food</a>
+      <a href="#"><span class="social-icon">🐦</span> x.com/vaptfood</a>
+      <a href="#"><span class="social-icon">▶️</span> youtube.com/@vaptfood</a>
+      <a href="#"><span class="social-icon">🎵</span> tiktok.com/@vaptfood</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo" data-page-target="home">
+      <img src="img/logo vaptfood.png" alt="VaptFood" />
+    </div>
+    <p>© Copyright 2026 - VaptFood - Todos os direitos reservados. VaptFood con cadastro no Restaurantes Prima S/A.</p>
+    <div class="footer-links">
+      <a href="#">Análise de Uso</a>
+      <a href="#">Código de Conduta</a>
+      <a href="#">Dicas de Segurança</a>
+      <a href="#">Privacidade</a>
+    </div>
+  </footer>
+</div>
+
+<div class="page" id="page-ajuda">
+  <div class="ajuda-page">
+    <div class="ajuda-grid">
+
+      <div class="ajuda-item">
+        <h3>Quais são as formas de pagamento aceitas?</h3>
+        <p><strong>Quais são as formas de pagamento aceitas?</strong><br/>
+        Para sua conveniência, aceitamos as principais bandeiras de cartão de crédito e débito (Visa, Mastercard, Elo, Amex), PIX e pagamentos via carteiras digitais. Também aceitamos os principais Vales-Refeição diretamente pelo site/app ou na entrega (consulte as bandeiras disponíveis no fechamento do pedido).</p>
+      </div>
+
+      <div class="ajuda-item">
+        <h3>Posso alterar o endereço de entrega?</h3>
+        <p>Para garantir que sua comida chegue quentinha, a alteração de endereço só é possível antes do pedido sair para entrega. Caso perceba o erro logo após finalizar a compra, fale conosco urgentemente via chat. Se o entregador já estiver em rota, poderá haver cobrança de taxa adicional ou devolução do pedido para a loja.</p>
+      </div>
+
+      <div class="ajuda-item">
+        <h3>Como funciona o processo de estorno?</h3>
+        <p>O estorno é solicitado imediatamente após o cancelamento do pedido.</p>
+        <ul>
+          <li><strong>PIX:</strong> O valor retorna para sua conta em poucos minutos.</li>
+          <li><strong>Cartão de Crédito:</strong> O prazo de visualização do crédito depende da sua operadora de cartão, podendo ocorrer na fatura atual ou na seguinte.</li>
+        </ul>
+      </div>
+
+      <div class="ajuda-item">
+        <h3>Como cancelar um pedido?</h3>
+        <p>O cancelamento pode ser feito diretamente na aba "Meus Pedidos" enquanto a loja ainda não confirmou o início do preparo. Se a cozinha já estiver preparando o seu prato, o cancelamento direto fica indisponível. Nesse caso, entre em contato com nosso suporte para verificar a possibilidade, lembrando que pedidos em produção ou já enviados podem não ser passíveis de reembolso total.</p>
+      </div>
+
+      <div class="ajuda-item">
+        <h3>Teve um problema na cobrança, o que fazer?</h3>
+        <p>Se você notar qualquer divergência de valores ou cobranças duplicadas, entre em contato imediatamente com nosso suporte pelo chat ou WhatsApp. Envie o comprovante de pagamento para que possamos analisar e resolver a situação o mais rápido possível!</p>
+      </div>
+
+      <div class="ajuda-item">
+        <h3>Onde está meu pedido?</h3>
+        <p>Você pode acompanhar cada passo da sua comida em tempo real! Basta acessar a aba "Meus Pedidos" no menu principal. Lá você verá o status atual:</p>
+        <ul>
+          <li><strong>Confirmado:</strong> A loja já recebeu seu pedido</li>
+          <li><strong>Em preparo:</strong> Sua comida está sendo feita com todo carinho</li>
+          <li><strong>Saiu para entrega:</strong> O entregador a caminho! Você poderá ver o mapa com o deslocamento (se disponível) ou o tempo estimado de chegada</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo" data-page-target="home">
+      <img src="img/logo vaptfood.png" alt="VaptFood" />
+    </div>
+    <p>© Copyright 2026 - VaptFood</p>
+    <div class="footer-links">
+      <a href="#">Análise de Uso</a>
+      <a href="#">Código de Conduta</a>
+      <a href="#">Privacidade</a>
+    </div>
+  </footer>
+</div>
+
+<div class="modal-overlay" id="modal-login">
+  <div class="modal">
+    <button class="modal-close" data-modal-close="login">✕</button>
+    <img src="img/logo vaptfood.png" alt="VaptFood" />
+    <h3>Faça login<br/>ou <span id="link-ir-cadastro">Crie uma conta</span></h3>
+
+    <form id="form-login">
+      <label for="login-user">usuário</label>
+      <input type="text" placeholder="Seu usuário" id="login-user" />
+
+      <label for="login-pass">senha</label>
+      <input type="password" placeholder="Sua senha" id="login-pass" />
+
+      <div class="modal-btns">
+        <button type="button" class="btn-sair" data-modal-close="login">SAIR</button>
+        <button type="submit" class="btn-gold">ENTRAR</button>
+      </div>
+    </form>
+    <p class="modal-footer">© 2026 VaptFood da 4xp</p>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-register">
+  <div class="modal">
+    <button class="modal-close" data-modal-close="register">✕</button>
+    <img src="img/logo vaptfood.png" alt="VaptFood" />
+    <h3>Já tem uma conta? <span id="link-ir-login">Entrar</span></h3>
+
+    <form id="form-register">
+      <label for="reg-user">Digite um nome de usuário</label>
+      <input type="text" placeholder="Nome de usuário" id="reg-user" />
+
+      <label for="reg-pass">Digite uma senha forte</label>
+      <input type="password" placeholder="Senha" id="reg-pass" />
+
+      <label for="reg-pass2">Confirmar senha</label>
+      <input type="password" placeholder="Confirme a senha" id="reg-pass2" />
+
+      <button type="submit" class="btn-gold-full">ENTRAR</button>
+    </form>
+
+    <div class="divider">ou</div>
+
+    <button type="button" class="btn-google" id="btn-login-google">
+      <span class="google-icon">
+        <svg width="20" height="20" viewBox="0 0 48 48">
+          <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+          <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+          <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+          <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.31-8.16 2.31-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+        </svg>
+      </span>
+      Faça login com o Google
+    </button>
+
+    <p class="modal-footer">© 2026 VaptFood da 4xp</p>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
